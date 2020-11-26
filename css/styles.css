@@ -1,6 +1,6 @@
 .containerNav {
   display: flex;
-  height: 60px;
+  height: 100px;
   width: 100%;
   background-color: black;
 }
@@ -10,9 +10,9 @@
   display: flex;
 }
 .logoSpot {
-  width: 100px;
+  width: 200px;
 
-  margin-left: 40px;
+  margin-left: 300px;
   justify-self: center;
   align-self: center;
 }
@@ -31,11 +31,12 @@
   background-color: #2d46b9;
   height: 500px;
   display: flex;
-  padding: 100px;
+  padding: 50px;
 }
 
 .info {
   width: 50%;
+  margin-left: 340px;
 }
 
 .disfruta {
@@ -119,4 +120,217 @@
 .button-Free-months:hover {
   color: black;
   background-color: white;
+}
+
+footer {
+  background-color: black !important;
+}
+.f1 {
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+}
+.f1 p {
+  padding: 0px !important;
+  margin: 0px !important;
+  color: #ffffff;
+}
+.f2 ul {
+  list-style: none !important;
+  padding: 0px !important;
+}
+.f2 h6 {
+  margin: 20px 0px;
+  color: rgb(145, 148, 150);
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.f2 ul li {
+  padding: 3px 0px 15px 0px;
+}
+.f2 ul li a {
+  color: rgb(255, 255, 255);
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration-color: rgb(255, 255, 255);
+  transition: all ease-in-out;
+}
+.f2 ul li a:hover {
+  color: rgb(30, 215, 96) !important;
+  text-decoration: none;
+}
+.f3 ul {
+  list-style: none !important;
+  padding: 0px !important;
+  display: flex;
+  justify-content: flex-end;
+}
+.f3 ul li {
+  margin-left: 15px;
+}
+.f4 ul {
+  list-style: none !important;
+  padding: 0px !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.f4 ul li {
+  margin-right: 24px;
+}
+.f4 ul li a {
+  color: rgb(145, 148, 150);
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.f4 ul li a:hover {
+  color: rgb(30, 215, 96) !important;
+  text-decoration: none;
+}
+.f4 .mx {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.f4 .mx .logo {
+  color: rgb(145, 148, 150);
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.copy {
+  color: rgb(145, 148, 150);
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+@media (max-width: 991px) {
+  .f3 ul {
+    justify-content: flex-start;
+  }
+  .f3 ul li:first-child {
+    margin: 0px;
+  }
+}
+
+.btn-white {
+  background-color: #fff;
+  box-shadow: inset 0 0 0 2px #000;
+}
+.btn-white:hover {
+  background-color: #ccc;
+}
+.btn-black {
+  color: #fff;
+  background-color: black;
+}
+.btn-black:hover {
+  color: #fff;
+}
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+.table-title {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.3;
+  width: 100%;
+  margin: 80px 0 24px;
+  text-align: center;
+}
+.table {
+  max-width: 940px;
+  width: 100%;
+  background: #fff;
+}
+.table div {
+  border: 1px solid #f8f8f8;
+}
+.row {
+  width: 100%;
+  margin: 0;
+}
+.row.--header > * {
+  padding: 12px;
+}
+.--header .table-promo {
+  font-size: 11px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  min-height: 2.4em;
+  padding: 3px 0;
+  margin: -12px -12px 12px;
+  display: block;
+  color: #fff;
+}
+.table-promo.--active {
+  background-color: #2e77d0;
+}
+.--header h5,
+.--header h6 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 700;
+}
+.--header h6 {
+  font-weight: 300;
+}
+.--header p {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  padding: 0 42px;
+  margin: 12px 0;
+}
+.--header .btn {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 12px;
+  padding: 10px 10px;
+  margin-top: auto;
+  margin-bottom: 6px;
+  border-radius: 500px;
+  min-width: 160px;
+  width: 100%;
+}
+.table-row {
+  width: 100%;
+}
+.table-row p {
+  font-size: 18px;
+  font-weight: 300;
+  width: auto;
+  text-align: left;
+  border: 1px solid #f8f8f8;
+  padding: 12px;
+  margin-bottom: 0;
+}
+.table-checkmark {
+  background-size: 24px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Check_mark_23x20_04.svg/1200px-Check_mark_23x20_04.svg.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.table-legals {
+  font-size: 12px;
+  color: #606367;
+  margin: 24px 0;
+  padding: 0 12px;
+  width: 100%;
+  max-width: 990px;
+}
+.table-legals a {
+  color: #606367;
+  text-decoration: underline;
 }
